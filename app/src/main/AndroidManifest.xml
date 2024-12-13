@@ -9,7 +9,7 @@
 
 
     <application
-        android:name=".base.MyApp"
+        android:name="com.whosmyqueen.audio_recorder.base.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,7 +18,7 @@
         android:theme="@style/Theme.ZlwAudioRecorder"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.whosmyqueen.audio_recorder.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ZlwAudioRecorder">
             <intent-filter>
@@ -28,12 +28,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TestHzActivity"
+            android:name="com.whosmyqueen.audio_recorder.TestHzActivity"
             android:label="test"
             android:screenOrientation="landscape" />
 
         <service
-            android:name="com.zlw.main.recorderlib.recorder.RecordService"
+            android:name="com.whosmyqueen.mediarecorder.recorder.RecordService"
             android:enabled="true"
             android:exported="false" />
     </application>

@@ -6,7 +6,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context="com.whosmyqueen.audio_recorder.MainActivity">
 
     <TextView
         android:id="@+id/tvState"
@@ -184,7 +184,7 @@
         android:layout_height="wrap_content"
         android:text="停止" />
 
-    <com.zlw.audio_recorder.widget.AudioView
+    <com.whosmyqueen.audio_recorder.widget.AudioView
         android:id="@+id/audioView"
         android:layout_width="match_parent"
         android:layout_height="150dp" />
