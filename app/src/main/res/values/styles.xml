@@ -1,5 +1,5 @@
 <resources>
 
-    <style name="Theme.ZlwAudioRecorder" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.AudioRecorder" parent="Theme.AppCompat.Light.NoActionBar" />
 
 </resources>
