@@ -14,8 +14,12 @@ import androidx.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
- * @author zhaolewei on 2018/8/17.
+ * 音频视图
+ *
+ * @author zhengzhihui1.vendor
+ * @date 2024/12/13
  */
 public class AudioView extends View {
 

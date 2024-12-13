@@ -35,6 +35,12 @@ import com.whosmyqueen.mediarecorder.recorder.listener.RecordStateListener;
 import java.io.File;
 import java.util.Locale;
 
+/**
+ * 主要活动
+ *
+ * @author zhengzhihui1.vendor
+ * @date 2024/12/13
+ */
 public class MainActivity extends ComponentActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
     private static final String TAG = MainActivity.class.getSimpleName();
 

@@ -32,6 +32,12 @@ import java.io.File;
 import java.util.Locale;
 
 
+/**
+ * 测试赫兹活动
+ *
+ * @author zhengzhihui1.vendor
+ * @date 2024/12/13
+ */
 public class TestHzActivity extends ComponentActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener {
     private static final String TAG = TestHzActivity.class.getSimpleName();
 

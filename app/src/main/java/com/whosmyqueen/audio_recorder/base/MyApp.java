@@ -2,8 +2,12 @@ package com.whosmyqueen.audio_recorder.base;
 
 import android.app.Application;
 
+
 /**
- * @author zlw on 2018/7/4.
+ * 我程序
+ *
+ * @author zhengzhihui1.vendor
+ * @date 2024/12/13
  */
 public class MyApp extends Application {
 
